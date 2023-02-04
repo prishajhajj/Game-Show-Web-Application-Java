@@ -10,6 +10,10 @@ public class Main {
 
         PlayGame obj = new PlayGame(new Random());
 
+        out.println("random number: " + obj.valueGenerator());
+        out.println(obj.result());
+
+
     }
 
 }
