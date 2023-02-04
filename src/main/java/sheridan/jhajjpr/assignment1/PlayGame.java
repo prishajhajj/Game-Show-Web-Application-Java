@@ -25,6 +25,24 @@ public class PlayGame {
         }
     }
 
+    public int valueGenerator( ) {
+        boxValue = 1 + (int)(3*Math.random());
+        return boxValue;
+    }
+
+    public int result( ) {
+        if(boxValue == 1) {
+            out.println("User chose Box 1");
+        }
+        if(boxValue == 2) {
+            out.println("User chose Box 2");
+        }
+        if(boxValue == 3) {
+            out.println("User chose Box 3");
+        }
+        return boxValue;
+    }
+
 
 
 }
