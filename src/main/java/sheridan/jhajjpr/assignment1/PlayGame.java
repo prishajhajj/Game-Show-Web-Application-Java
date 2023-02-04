@@ -12,4 +12,19 @@ public class PlayGame {
         this.random = random;
     }
 
+    public int getValue( ) {
+        return boxValue;
+    }
+
+    public final void setValue(int value) {
+        if(value >= 1 && value <= 3) {
+            this.boxValue = boxValue;
+        }
+        else {
+            throw new IllegalArgumentException("Number of Boxes is not valid" + boxValue);
+        }
+    }
+
+
+
 }
