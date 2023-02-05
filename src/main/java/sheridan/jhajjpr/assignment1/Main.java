@@ -20,17 +20,13 @@ public class Main {
         List<String> prizeslist = Arrays.asList((prizes));
         System.out.println("Prize list");
 
-        //System.out.println("Shuffled Prize list");
-
         for (String val : prizeslist) {
             System.out.println(val + " ");
         }
 
+        System.out.println("Shuffled Prize list");
         Collections.shuffle(prizeslist);
         System.out.println(prizeslist);
-
-        //obj.result2();
-
 
 
     }
