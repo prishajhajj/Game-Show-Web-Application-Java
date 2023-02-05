@@ -8,6 +8,18 @@ public class PrizeSelection {
 
     private final PlayerChoice playerthreeChoice;
 
+    public PlayerChoice getPlayeroneChoice() {
+        return playeroneChoice;
+    }
+
+    public PlayerChoice getPlayertwoChoice() {
+        return playertwoChoice;
+    }
+
+    public PlayerChoice getPlayerthreeChoice() {
+        return playerthreeChoice;
+    }
+
     }
 
 
